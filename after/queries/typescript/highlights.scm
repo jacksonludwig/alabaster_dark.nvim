@@ -10,3 +10,7 @@
   name: (type_identifier) @alabaster.definition)
 
 (undefined) @alabaster.constant
+
+;; Highlight variable declarations as definition
+(variable_declarator
+  name: (identifier) @alabaster.definition)
