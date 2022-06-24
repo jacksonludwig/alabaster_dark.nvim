@@ -25,3 +25,7 @@
 ;; Highlight class field definitions as definition
 (public_field_definition
   name: (property_identifier) @alabaster.definition)
+
+;; Highlight class name declaration as definition
+(class_declaration
+  name: (type_identifier) @alabaster.definition)
